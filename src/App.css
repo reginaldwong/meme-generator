@@ -92,6 +92,8 @@ section {
   margin: 0 auto;
 }
 
+/* HEADER COMPONENT */
+
 .header--navbar {
   display: flex;
   align-items: center;
@@ -111,4 +113,20 @@ section {
 .header--subtitle {
   font-size: 1rem;
   font-family: Inter, sans-serif;
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: .5rem;
+  }
+  .header--image {
+    margin-right: 0.25rem;
+    height: 2rem;
+  }
+  .header--title {
+    font-size: 1rem;
+  }
+  .header--subtitle {
+    font-size: .75rem;
+  }
 }
