@@ -134,7 +134,9 @@ section {
 .form--container {
   display: flex;
   align-items: center;
-  margin-top: 2.25rem;;
+  margin-top: 2.25rem;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: .875rem;
 }
 
 .form--container--image {
