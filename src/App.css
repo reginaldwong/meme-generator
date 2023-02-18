@@ -73,9 +73,9 @@ select {
   }
 }
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 body {
   font-family: Karla, sans-serif;
@@ -166,8 +166,11 @@ section {
   .form--container {
     flex-direction: column;
   }
+  .form--container--image {
+    max-width: 95%;
+  }
   .form--form {
-    width: 75%;
+    width: 90%;
     margin-top: 2.25rem;
   }
   .form--container--image {
