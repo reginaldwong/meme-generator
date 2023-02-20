@@ -133,7 +133,7 @@ section {
 /* FORM COMPONENT */
 .form--container {
   display: flex;
-  align-items: center;
+
   margin-top: 2.25rem;
   font-family: Source Sans Pro, sans-serif;
   font-size: .875rem;
@@ -164,11 +164,9 @@ section {
 }
 
 .form--image {
-  max-width: 80%;
-  max-height: 80%;
+  width: 30rem;
+  max-height: 50rem;
   object-fit: cover;
-  overflow: hidden;
- 
 }
 
 @media (max-width: 1000px) {
@@ -185,5 +183,8 @@ section {
   }
   .form--container--image {
     margin: 0 auto;
+  }
+  .form--image {
+    max-width: 100%;
   }
 }
