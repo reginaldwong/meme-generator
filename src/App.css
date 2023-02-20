@@ -86,7 +86,7 @@ header {
 }
 
 section {
-  padding: .35rem;
+  padding: .5rem;
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -154,6 +154,7 @@ section {
   border: none;
   color: #ffffff;
   padding: 0.625rem;
+  cursor: pointer;
 }
 
 .form--form {
@@ -165,13 +166,14 @@ section {
 @media (max-width: 1000px) {
   .form--container {
     flex-direction: column;
+    margin-top: .75rem;
   }
   .form--container--image {
-    max-width: 95%;
+    max-width: 100%;
   }
   .form--form {
-    width: 90%;
-    margin-top: 2.25rem;
+    width: 100%;
+    margin-top: 1rem;
   }
   .form--container--image {
     margin: 0 auto;
