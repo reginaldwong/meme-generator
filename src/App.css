@@ -133,7 +133,6 @@ section {
 /* FORM COMPONENT */
 .form--container {
   display: flex;
-
   margin-top: 2.25rem;
   font-family: Source Sans Pro, sans-serif;
   font-size: .875rem;
@@ -141,6 +140,11 @@ section {
 
 .form--container--image {
   margin-right: auto;
+}
+
+.form--name {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
 
 .form--input {
@@ -186,5 +190,8 @@ section {
   }
   .form--image {
     max-width: 100%;
+  }
+  .form--name {
+    text-align: center;
   }
 }

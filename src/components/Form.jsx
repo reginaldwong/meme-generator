@@ -3,9 +3,9 @@ import memeData from "../memeData";
 
 const Form = () => {
     const [memeImage, setMemeImage] = useState("");
-    const [memeName, setMemeName] = useState("Enter the top text in the first bar and bottom text in the second bar");
+    const [memeName, setMemeName] = useState("");
 
-    const getMemeImage = () => {
+    const getMeme = () => {
         const memesArray = memeData.data.memes;
         const randomMeme = memesArray[Math.floor(Math.random()*memesArray.length)];
         setMemeImage(randomMeme.url);
@@ -16,14 +16,14 @@ const Form = () => {
         <section>
         <div className="form--container">
             <div className="form--container--image">
-                <img src={memeImage} alt="" className="form--image" />
+                <img src={memeImage} alt={memeName} className="form--image" />
             </div>
             <div action="" className="form--form">
-                <h3>{memeName}</h3>
+                <h3 className="form--name">{memeName}</h3>
                 <p>Enter the top text in the first bar and bottom text in the second bar!</p>
                 <input type="text" placeholder="Top Text" className="form--input"/>
                 <input type="text" placeholder="Bottom Text" className="form--input"/>
-                <button className="form--button" onClick={getMemeImage} >Get a new meme 🔥🔥</button>
+                <button className="form--button" onClick={getMeme} >Get a new meme 🔥🔥</button>
             </div>
         </div>
         </section>
