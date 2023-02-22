@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import memeData from "../memeData";
 
 const Form = () => {
-    const [memeImage, setMemeImage] = useState("");
+    const [memeImage, setMemeImage] = useState("/images/placeholder.png");
     const [memeName, setMemeName] = useState("");
 
     const getMeme = () => {
