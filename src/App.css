@@ -73,12 +73,13 @@ select {
   }
 }
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 body {
   font-family: Karla, sans-serif;
+  background-color: #f0f0f0;;
 }
 
 /* .App {
@@ -142,6 +143,9 @@ section {
   margin-block: 2.25rem;
   font-family: Source Sans Pro, sans-serif;
   font-size: .875rem;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  padding: 1.25rem;
 }
 
 .form--container--image {
