@@ -144,6 +144,7 @@ section {
   font-family: Source Sans Pro, sans-serif;
   font-size: .875rem;
   border: 1px solid #ccc;
+  border-radius: 2.5px;
   background-color: #ffffff;
   padding: 1.25rem;
 }
@@ -206,6 +207,17 @@ section {
   }
 }
 
+/* ABOUT COMPONENT */
+.about--container {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: .875rem; 
+  border: 1px solid #ccc;
+  border-radius: 2.5px;
+  background-color: #ffffff;
+  padding: 1.5rem;
+}
+
+
 /* FOOTER COMPONENT */
 footer {
   background-color: rgb(22,102,142);
@@ -215,6 +227,7 @@ footer {
   padding: 1em;
   text-align: center;
   margin-top: auto;
+  margin-top: 2.5rem;
 }
 
 
