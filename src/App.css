@@ -82,12 +82,6 @@ body {
   background-color: #f0f0f0;;
 }
 
-/* .App {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-} */
-
 header {
   background-color: rgb(22,102,142)
 }
@@ -224,8 +218,18 @@ section {
 
 .about--title {
   font-size: 1.25rem;
+  margin-bottom: .5rem;
 }
 
+.about--container > p {
+  margin-bottom: .5rem;
+}
+
+@media (max-width: 480px) {
+.about--container {
+  margin-bottom: 3.5rem;
+}
+}
 
 /* FOOTER COMPONENT */
 footer {
