@@ -7,7 +7,7 @@ const Form = () => {
         bottomText: "",
         image:"/images/placeholder.png"
     });
-    const [memeName, setMemeName] = useState("");
+    const [memeName, setMemeName] = useState("Shut Up And Take My Money Fry");
 
     const getMeme = () => {
         const memesArray = memeData.data.memes;
