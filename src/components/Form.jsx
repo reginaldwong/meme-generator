@@ -26,10 +26,12 @@ const Form = () => {
         <div className="form--container">
             <div className="form--container--image">
                 <img src={memeImage.image} alt={memeName} className="form--image" />
+                <h2 className="meme--text top">top text</h2>
+                <h2 className="meme--text bottom">bottom text</h2>
             </div>
             <div action="" className="form--form">
                 <h3 className="form--name">{memeName}</h3>
-                <p>Enter the top text in the first bar and bottom text in the second bar!!</p>
+                <p>Enter the top text in the first bar and bottom text in the second bar!</p>
                 <input type="text" placeholder="Enter top text" className="form--input"/>
                 <input type="text" placeholder="Enter bottom text" className="form--input"/>
                 <button className="form--button" onClick={getMeme} >Get a new meme 🔥🔥</button>
